@@ -151,11 +151,22 @@
     display: none;
   }
 
-  .product-section {
+  .product-section,
+  .popular-category-section {
     padding: 10px;
   }
 
   .product-cards {
     grid-template-columns: 1fr;
+  }
+
+  .product-header h3,
+  .popular-category-top h3 {
+    font-size: 20px;
+  }
+
+  .product-header a,
+  .popular-category-top a {
+    font-size: 16px;
   }
 }
