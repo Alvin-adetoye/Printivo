@@ -152,7 +152,8 @@
   }
 
   .product-section,
-  .popular-category-section {
+  .popular-category-section,
+  .partner-section {
     padding: 10px;
   }
 
@@ -169,4 +170,14 @@
   .popular-category-top a {
     font-size: 16px;
   }
+
+  .partner-info h2 {
+    font-size: 25px;
+    max-width: 300px;
+  }
+
+  .partner-info p{
+    font-size: 15px;
+  }
+  
 }
