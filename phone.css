@@ -155,7 +155,9 @@
   .popular-category-section,
   .partner-section,
   .review-section,
-  .trust-section {
+  .trust-section,
+  .Our-work-section,
+  .footer {
     padding: 10px;
   }
 
@@ -222,5 +224,25 @@
     font-weight: 400;
   }
   
+
+  .Our-work-section h2 {
+    font-size: 25px;
+  }
+
+  .works {
+    grid-template-columns: 1fr;
+    gap: 50px;
+
+  }
+
+  .work {
+    gap: 10px;
+    
+  }
+
+  .footer-cont {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 
 }
